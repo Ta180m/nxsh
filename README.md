@@ -21,23 +21,23 @@ To make the application available at the root of your homebrew menu, simply copy
 ### Building from source (Unix)
 
 If you choose to compile the application from source, clone the latest code from GitHub and build:
-```
+```sh
 $ git clone https://github.com/Cesura/nxsh.git
 $ cd nxsh
 $ make nro
 ```
 
 To build the sysmodule version, instead run:
-```
+```sh
 $ make sys
 ```
 
 To build binaries in a ready-to-release format, run:
-```
+```sh
 $ make dist
 ```
 
-I've included a Makefile for simplifying the build process, but you *will* need to have an aarch64 cross compiler installed, as well as the latest version of libnx and devkitpro. As of version 0.1.5 alpha, you'll need to link it against libcurl and zlib as well. More information on how to set up a proper build environment can be found [here](https://switchbrew.org/wiki/Setting_up_Development_Environment).
+I've included a Makefile for simplifying the build process, but you *will* need to have an AArch64 cross compiler installed, as well as the latest version of libnx and devkitpro. As of version 0.1.5 alpha, you'll need to link it against libcurl and zlib as well. More information on how to set up a proper build environment can be found [here](https://switchbrew.org/wiki/Setting_up_Development_Environment).
 
 ## Connecting
 
